@@ -1,0 +1,8 @@
+$expr
+
+Allows MongoDB to perform operations on fields within a document.
+Example: Filtering documents where a calculated field matches a value.
+$month
+
+Extracts the month (1-12) from a Date field.
+Example: $month: "$dateOfSale" extracts the month from dateOfSale.
